@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maemo | Wikipedia Premium</title>
+    
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --border: #dee2e6;
+        }
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.8;
+            color: var(--dark);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--light);
+        }
+        article {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 2.4rem;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        .content {
+            column-count: 2;
+            column-gap: 40px;
+            text-align: justify;
+            hyphens: auto;
+        }
+        .content p {
+            margin-bottom: 25px;
+            text-indent: 2em;
+            font-size: 1.1rem;
+            line-height: 1.9;
+        }
+        .gallery {
+            margin: 40px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+        }
+        .gallery-item {
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        .gallery-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+        .gallery-caption {
+            padding: 15px;
+            background: white;
+            font-size: 0.95rem;
+            color: var(--dark);
+            text-align: center;
+            border-top: 1px solid var(--border);
+        }
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 0.9rem;
+            color: var(--dark);
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .content {
+                column-count: 1;
+            }
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <article>
+        <h1>Maemo</h1>
+        
+        <div class="content">
+            <p>Maemo adalah sebuah perkembangan platform yang bersifat sumber terbuka untuk perangkat-perangkat yang menggunakan sistem Linux, seperti internet tablet, yang mewarisi arsitektur Linux dari sistem operasi Unix. Maemo dibuat melalui komponen sumber terbuka yang digunakan secara luas dengan beberapa tambahan untuk mengintegrasikan kesemuanya dengan baik pada perangkat yang menggunakannya.</p>
+<p>Internet tablet merupakan perangkat yang digunakan yang menyediakan desktop pada level PC yang digunakan untuk servis internet (seperti: webpages dan email). Perangkat-perangkat tersebut memiliki resolusi tinggi, dengan layar sentuh sensitif berukuran 800 x 480 pixel. Nokia telah merilis tiga internet tablet menggunakan platform Maemo, yaitu Nokia 770, Nokia N800, dan Nokia N810, dan yang terbaru Nokia N900.</p>
+<p>== Sejarah ==</p>
+<p>Sistem Operasi internet tablet pertama muncul pada Nokia 770, yang diluncurkan pada 2 November 2005. N770 memiliki beberapa spesifikasi yaitu akses internet menggunakan koneksi WLAN dengan mesin pencari opera, flash 6, email dasar, pemutar audio dan video, PDF, dan beberapa jenis permainan sederhana lainnya.</p>
+<p>Selanjutnya, Nokia mengeluarkan versi beta dari Nokia 770 yang dilengkapi sistem operasi internet tablet terbaru dan disempurnakan pada 3 Juni 2006. Penyempurnaan ini meliputi penampilan yang lebih menarik, keyboard layar penuh, GoogleTalk di dalamnya, kemampuan mendukung kartu memori hingga 2gigabita, dan peningkatan Linux hingga 2.6.</p>
+<p>Evolusi berikutnya dalam platform Maemo adalah Nokia 800 internet tablet yang berisikan Maemo 3. Aplikasi yang ditambahkan adalah Skype/VoIP-calls menggunakan WLAN, kamera yang terintegrasi, Opera 8, dan Flash 7. Nokia ini diluncurkan pada 4 Januari 2007.</p>
+<p>Nokia 810, diluncurkan pada 6 Juni 2008, adalah perkembangan sistem internet tablet berikutnya. Dengan Maemo 4, Nokia ini memiliki QWERTY keyboard yang menyeluruh dengan layar sentuh, sistem pencarian internet MicroB (berbasis teknologi Mozilla), GoogleTalk, kemampuan mendukung perangkat USB dan pemutar media Windows, dan GPS di dalamnya.</p>
+<p>Maemo 5, atau Fremantle, merupakan evolusi besar dari platform Maemo. Maemo 5 diperkenalkan sebagai penghubung antarmuka pengguna (UI) dengan layar sentuh yang secara keseluruhan didesain ulang, fitur telepon seluler, dan Dashboard yang serbabisa dan serbalangsung, yang memperkuat Nokia 900.</p>
+<p>== Komunitas Maemo ==</p>
+<p>Komunitas Maemo merupakan sebuah komunitas yang bersifat sumber terbuka yang mengembangkan perangkat lunak di sekitar platform Maemo, baik untuk platform itu sendiri maupun di atasnya. Komunitas ini berkumpul sekali dalam setahun pada Maemo Summit (dimulai tahun 2008) dan juga acara-acara sumber terbuka terkait seperti GUADEC, LinuxTag, dan Open Source In Mobile (OSIM).</p>
+<p>== Komponen Maemo ==</p>
+<p>Platform Maemo didasarkan pada apa yang ada dalam Linux Operating System Kernel, yaitu kernel monolitik yang membantu lebih dari satu platform perangkat keras dan mampu untuk membantu segala jenis sinyal dalam jangka luas dari jam tangan hingga sistem besar. Semua sinyal pengguna Maemo memiliki OMAP chipset, yang mengandung tujuan umum dari prosesor ARM dan unit DSP.</p>
+<p>Arsitektur antarmuka pengguna pada Maemo 5 didasarkan pada kerangka kerja GNOME, khususnya set GTK+. GNOME merupakan aplikasi kerangka kerja terdepan untuk desktop sistem Linux. Platform Maemo mewarisi sejumlah komponen utama, seperti GTK, kerangka kerja Gstreamer Multimedia, manajemen konfigurasi Gconf, dan XML Library. Platform Maemo dilengkapi pula dengan perpanjangan teknologi GTK+/GNOME dengan menyediakan ekstensi untuk desktop yang mudah dipindahkan.</p>
+<p>Komponen utama pada Maemo adalah Linux Kernel, yang menyediakan abstraksi perangkat keras untuk sistem sinyal, manajemen komponen, manajemen proses, dan servis jaringan. Maemo 5 menggunakan sistem operasi Linux 2.6. Sistem penyimpanan pada platform Maemo didasarkan pada standar GNU C Library. Untuk jaringan, Maemo menggunakan OpenSSL Library yang menyediakan akses HTTP sebagai aplikasi. Untuk abstraksi perangkat keras, Maemo menyediakan Hardware Abstraction Layer (HAL)</p>
+<p>Kerangka kerja paket manajemen pada Maemo didapatkan dari distribusi Debian. Sistem servis yang digunakan adalah D-BUS, yang menyediakan saluran interaksi di antara aplikasi. Sistem servis juga menyediakan database SQL (SQLite), Device State Management (DSM), Mode Control (MCE), dan Battery Management (BME).</p>
+<p>Peluncur Maemo ada dalam semua aplikasi, yang terbagi atas dua bagian, yaitu Maemo-Invoker (dieksekusikan oleh DBUS daemon) dan Maemo-Launcher. Kerangka kerja antarmuka pengunjung didasarkan pada X Window System, yang memiliki Matchbox Window Manager. API di atas X adalah GTK+ widget toolkit dengan apa yang disebut dengan ekstensi Hildon. GTK+ adalah kerangka kerja UI yang dikembangkan dalam proyek GNOME.</p>
+<p>Maemo SDK menyediakan peralatan yang diperlukan untuk menciptakan dan mengintgrasikan aplikasi, mereplikasi lingkungan platform Maemo dalam PC pengguna. Didukung oleh Maemo API yang disediakan untuk bahasa DSF.</p>
+<p>== Fitur Maemo ==</p>
+<p>Pembaharuan</p>
+<p>Perangkat Maemo dapat diperbaharui menggunakan metode sederhana, yaitu dengan komputer menggunakan USB. Sistem operasi 2008 terbaru, Diablo, juga didukung dengan “Seamless Software Update” (SSU), yang membuat sistem operasi dapat ditingkatkan tanpa menggunakan kabel pada setiap pembaharuannya.</p>
+<p>Keamanan</p>
+<p>Para pengembang memperingatkan bahwa keamanan Maemo terkonsentrasi pada pencegahan penyerangan telepon genggam (misalnya: jaringan tanpa kabel dan bluetooth). Maemo menyediakan cara penguncian kontrol perangkat dan menampilkannya dengan kode akses berbentuk angka untuk mencegah akses yang tidak bertanggungjawab.</p>
+<p>== Perangkat Lunak ==</p>
+<p>Maemo memiliki sejumlah perangkat perangkat lunak, seperti mesin pencari dengan basis Mozilla, Adobe Flash, dan Skype. Selain itu, karena bersifat sumber terbuka, terdapat sejumlah aplikasi pihak ketiga dalam Maemo, baik yang dibuat khusus untuk Maemo maupun program Linux yang sudah ada, yaitu:</p>
+<p>Pemutar Media: Canola, MPlayer</p>
+<p>Internet: Claws Mail, Modest, Midori, Mozilla Fennec</p>
+<p>Aplikasi Kantor: Gnumeric, Abiword (pengolah kata)</p>
+<p>VOIP: Gizmo5, Skype</p>
+<p>Pesan Kilat: Pidgin</p>
+<p>Permainan: The Battle for Wesnoth, Wormux</p>
+<p>Debian</p>
+<p>Fremantle: Aplikasinya akan menjadi bagian Maemo 5, yaitu: Mauku, Maemo Mapper, Numpty Physics, ScummVM, Xournal, Fennec, FBReader (pembaca e-book), OSM2Go (OpenStreetMap)</p>
+<p>Lainnya: FBReader (pembaca e-book), GPE, rdesktop, Rhapsody, ScummVM, Wayfinder, Free42S, gPodder, Maemo Mapper, MaemoMyth, Monsoon HAVA, Navit (GPS), Obscura Photo Manager, Palm Emulator dari Access, Phonelink, Quiver Image Viewer, SDict Viewer, Vagalume, VNC, YouAmp, LogMeIn Browser Plugin</p>
+<p>== Jenis File Pembantu ==</p>
+<p>Gambar/Animasi: JPEG, GIF, Bitmap, TIFF, PNG, SVG Tiny, ICO</p>
+<p>Audio/pemutar list: MP3, RealAudio, MPEG-4, AAC, WAV, AMP, MP2, AMR, AWB, M4A, WMA. OGG/Vorbis, M3U, PLS</p>
+<p>Video: MPEG-1, MPEG-4 ASP (H.263), RealVideo, AVI, 3GP</p>
+<p>Teks/Layout: File Teks, PDF, HTML.</p>
+<p>== Perangkat Keras ==</p>
+<p>Sistem operasi Maemo didesain untuk internet tablet Nokia, yang memiliki fitur dengan spesifikasi yang serupa dengan telepon genggam Nokia tingkat tinggi, seri N dan seri E, dengan TI OMAP ARM SoCs, layar yang besar dan penyimpanan internal yang dapat diperbesar.</p>
+<p>== Referensi ==</p>
+<p>Official Website Maemo Nokia Diarsipkan 2011-01-27 di Wayback Machine.</p>
+<p>Official Website Maemo</p>
+<p>== Lihat pula ==</p>
+<p>Linux</p>
+<p>Nokia</p>
+<p>== Pranala luar ==</p>
+<p>Nokia N900</p>
+<p>Device Platforms Maemo Diarsipkan 2009-10-10 di Wayback Machine.</p>
+<p>Finding Maemo Diarsipkan 2009-09-27 di Wayback Machine.</p>
+<p>Maemo4Mobile</p>
+        </div>
+        <footer>
+            <p>Artikel premium dari Wikipedia | URL: <a href="https://id.wikipedia.org/wiki/Maemo">https://id.wikipedia.org/wiki/Maemo</a></p>
+            <p>Diekspor pada: 14 April 2025 09:24</p>
+        </footer>
+    </article>
+</body>
+</html>
